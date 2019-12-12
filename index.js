@@ -8,9 +8,8 @@ app.set('view engine', 'ejs')
 app.use(layouts)
 app.use('/', express.static('static'))
 
-//add controllers
-app.use('auth'/require('./controllers/auth'))
-app.use('profile'/require('./controllers/profile'))
+// Add any controllers we have
+app.use('/auth', require('./controllers/auth'))
 
 //add home or catch-all routes
 app.get('/', (req, res) => {

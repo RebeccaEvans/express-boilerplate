@@ -3,7 +3,7 @@ let router = require('express').Router()
 
 // Define routes
 router.get('/login', (req, res) => {
-    res.send('GET /auth/login')
+    res.render('auth/login')
 })
 router.post('/login', (req, res) => {
     res.send('POST /auth/login')
