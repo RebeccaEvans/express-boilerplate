@@ -1,0 +1,26 @@
+{
+  "name": "project-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaEvans/express-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RebeccaEvans/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RebeccaEvans/express-boilerplate#readme",
+  "description": ""
+}
